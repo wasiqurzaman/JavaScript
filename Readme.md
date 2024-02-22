@@ -35,7 +35,7 @@ to link an external JavaScript file with a HTML file we use the <script> tag
     <script defer src="./index.js"></script>
 ```
 
-If we the _async_ or the _defer_ attribute then the script file will be downloaded asynchronously. We'll discuss this in details later.
+If we add the _async_ or the _defer_ attribute then the script file will be downloaded asynchronously. We'll discuss this in details later.
 
 ### Value and Variables
 
@@ -48,7 +48,8 @@ Example: `let firstName = "John";`
 Think of variable as box in real world which can hold diffrent types of items and the variable name is the label on the box.
 We can use that label to find the box later. Similarly we can use the variable name to reference the variable.
 
-```let firstName = 'John';
+```
+    let firstName = 'John';
     console.log(firstName);                 // This will print John in the console
 ```
 
@@ -60,13 +61,33 @@ There are few benefits of using variables"
 #### Rule of Naming Variables in JavaScript
 
 1. Variable name can not start with a number
-   `let 5years = 5;       // This will cause error`
+
+`let 5years = 5;                          // This will cause error`
 
 2. Variable names can only contain letters, numbers and underscore (\_) and dollar sign ($).
 3. Variable names can not be reserved keywords in JavaScript.
    `let new = "New;         // This is invalid`
 4. Variable names should be descriptive and meaningful. This makes our code more readable and understandable.
 
-```let x = "Wasiqur"                // bad practice
-    let firstName = "Wasiqur"       // good practice
 ```
+    let x = "Wasiqur"                     // bad practice
+    let firstName = "Wasiqur"             // good practice
+```
+
+### Data Types in Javascript
+
+In every programming language values acn have different types, depending on the type of data they hold.
+In JavaScript every value is either an Object or a Primitive type.
+A value is primitive if it's not an object.
+
+#### Primitive Types
+
+There are 7 primitive types in JavaScript.
+
+1. **Number**: Floating point numbers. Used for decimals and integers. e.g. 23.0, 100 etc.
+2. **String**: Sequence of characters. Used for text. e.g. "hello", "abcd..." etc.
+3. **Boolean**: Logical type that can only be `true` or `false`. Used for taking decisions.
+4. **undefined**: Value taken by a vaiable that is declared but not not assigned. Empty value.
+5. **null**: Also mean "empty value" but it is assianable to vaiables. e.g. `let lastName = null`
+6. **Symbol** (ES2015): Value that is unique and can not be changed. (not useful for now)
+7. **BigInt** (ES2020): Used for larger integers than the **Number** type can hold.
