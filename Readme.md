@@ -4,9 +4,9 @@
 
 JavaScript is a high-level, object oriented, multi-paradigm programming language which is mainly used for web development.
 
-> i. It's high-level because we don't have to worry about complex low level stuffs like memory management (like C or C++)
+> i. It's _high-level_ because we don't have to worry about complex low level stuffs like memory management (like C or C++)
 > ii. Base on Objects, for storing most kinds of data.
-> iii. Multi-paradigm because we can use different styles of programming like imperative, declarative etc.
+> iii. _Multi-paradigm_ because we can use different styles of programming like imperative, declarative etc.
 
 ### Role of JavaScript in Web Development
 
