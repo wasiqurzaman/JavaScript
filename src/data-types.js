@@ -15,5 +15,7 @@ console.log(typeof "Hello World");             // string
 jsIsFun = "yes";
 console.log(typeof jsIsFun);                   // string
 
-console.log(hello)
+console.log(hello)                             // undefined
 console.log(typeof undefined);                 // undefined =>> undefined is both a type and a value
+
+console.log(typeof null);                      // object  =>> probably a bug in JS but it is never fixed probably for legacy reasons
