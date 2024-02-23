@@ -91,3 +91,34 @@ There are 7 primitive types in JavaScript.
 5. **null**: Also mean "empty value" but it is assianable to vaiables. e.g. `let lastName = null`
 6. **Symbol** (ES2015): Value that is unique and can not be changed. (not useful for now)
 7. **BigInt** (ES2020): Used for larger integers than the **Number** type can hold.
+
+JavaScript has dynamic typing:
+
+1. We don't have to define the data type of the value stored in a variable. Instead the data type are determined automatically.
+2. In JavaScript, it's the value that has a type, not the variable;
+3. Variables simply stores values that have a type.
+4. We can assign a new value with a different data type to the same variable without a problem. It is very useful but can be source of some bug.
+
+```
+    let x = 23;                        // number
+    x = "hello";                       // string
+```
+
+### Code Commenting
+
+Comment are part of code which is not executed by the JavaScript engine.
+Single line comment
+
+```
+    // This is a single line comment.
+```
+
+Multi line comment
+
+```
+    /* This is
+       a multiline comment
+       because it can be
+       written on multiple lines.
+    */
+```
