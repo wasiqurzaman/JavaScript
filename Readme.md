@@ -76,7 +76,7 @@ There are few benefits of using variables"
 
 ### Data Types in Javascript
 
-In every programming language values acn have different types, depending on the type of data they hold.
+In every programming language values can have different types, depending on the type of data they hold.
 In JavaScript every value is either an Object or a Primitive type.
 A value is primitive if it's not an object.
 
@@ -150,3 +150,22 @@ console.log(typeof undefined);                 // undefined =>> undefined is bot
 
 console.log(typeof null);                      // object  =>> probably a bug in JS
 ```
+
+### Declaring variables in JavaScript: _let_, _const_ and _var_
+
+Let's now take a look at 3 different ways to declare variables in JavaScript.
+
+1. let
+2. const
+3. var
+
+var was the old way of declaring variables while let ans const are modern way of declaring variables. let and const were added to the language in ES2015/ES6.
+
+1. let: We use the let keyword to declare variables that can chabge later i.e. during the execution of program.
+
+```
+    let age = 20;
+    age = 21;                         // reassigning a value to a variable.
+```
+
+let is used when we need to mutate a vaiable. Also, when we declare an empty variable.
