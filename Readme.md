@@ -169,3 +169,40 @@ var was the old way of declaring variables while let ans const are modern way of
 ```
 
 let is used when we need to mutate a vaiable. Also, when we declare an empty variable.
+
+2. const: We use the const keyword to declare variables that area not suposed to change at any point in future. The value in a const variable can not be changed so it is called constant variable or immutable variable.
+
+```
+    const birthYear = 2002;
+    birthYear = 2000;                 // error ==> reassignment is not allowed
+```
+
+As constant variable are immutable, we can not declare empty const varables. So, const variable declaration must always be initialized.
+
+As a best practice we should we const variables and let varibles only when we are sure that the variable needs to change at some point in the future.
+
+3. var: var is the old way of declaring variable prior to ES2015/ES6. On the surface it works like let but there are some differences. Like let variables are block scoped and var varibales are function scoped etc. We'll learn them later in details. Declaring variables using var should be avoided in modern JavaScript.
+
+```
+    var job = "Software Engineer";
+    job = "coder";
+```
+
+### Basic Operators
+
+Let's learn about some basic operators in JavaScript.
+
+An operator is basically allows us to perform some operation on values and variables. Like transform values or combine multiple values etc.
+
+There are many kinds of operators:
+
+#### 1. Mathematical/Arithmetic Operators:
+
+- ==> addition operator
+
+* ==> subtraction operator
+
+- ==> multiplication operator
+  / ==> division operator
+  \*\* ==> exponent operator
+  % ==> modulo/remainder operator
