@@ -198,11 +198,35 @@ There are many kinds of operators:
 
 #### 1. Mathematical/Arithmetic Operators:
 
-- ==> addition operator
+1. Addition operator ( + )
+2. Subtraction operator ( - )
+3. Multiplication operator ( \* )
+4. Division operator ( / )
+5. Exponent operator ( \*\* )
+6. Modulo/remainder operator ( % )
 
-* ==> subtraction operator
+#### 2. Assignment Operators:
 
-- ==> multiplication operator
-  / ==> division operator
-  \*\* ==> exponent operator
-  % ==> modulo/remainder operator
+1. Assignments (basic) `==`
+2. Addition assignment operator `+=`
+3. Subtraction assignment operator `-=`
+4. Multiplication assignment operator `*=`
+5. Divition assignment operator `/=`
+
+#### 3. Increment and Decrement Operators:
+
+1. Prefix increment operator `++x`
+2. Postfix increment operator `x++`
+3. Prefix decrement operator `--x`
+4. Postfix derement operator `x--`
+
+#### 4. Comparison Operators:
+
+1. Equality operator `==`
+2. Inequality Operator `!=`
+3. Strict equality operator `===`
+4. Strict inequality operator `!==`
+5. Greater than operator `>`
+6. Greater than equal operator `>=`
+7. Less than operator `<`
+8. Less than equal operator `<=`
