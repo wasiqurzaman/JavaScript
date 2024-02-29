@@ -198,16 +198,16 @@ There are many kinds of operators:
 
 #### 1. Mathematical/Arithmetic Operators:
 
-1. Addition operator ( + )
-2. Subtraction operator ( - )
-3. Multiplication operator ( \* )
-4. Division operator ( / )
-5. Exponent operator ( \*\* )
-6. Modulo/remainder operator ( % )
+1. Addition operator `+`
+2. Subtraction operator `-`
+3. Multiplication operator `*`
+4. Division operator `/`
+5. Exponent operator `**`
+6. Modulo/remainder operator `%`
 
 #### 2. Assignment Operators:
 
-1. Assignments (basic) `==`
+1. Assignments (basic) `=`
 2. Addition assignment operator `+=`
 3. Subtraction assignment operator `-=`
 4. Multiplication assignment operator `*=`
@@ -230,3 +230,7 @@ There are many kinds of operators:
 6. Greater than equal operator `>=`
 7. Less than operator `<`
 8. Less than equal operator `<=`
+
+### Operator Precedence:
+
+### Strings and Template Literals:
