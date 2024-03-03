@@ -234,3 +234,17 @@ There are many kinds of operators:
 ### Operator Precedence:
 
 ### Strings and Template Literals:
+
+String are a very important part of programming. String are text inside single quote, double quote or backtick.
+
+```
+    const name = 'John';
+    const name = "John";
+    const name = `John`;
+```
+
+We can use the + operator to concatenate two more strings.
+
+```
+
+```
